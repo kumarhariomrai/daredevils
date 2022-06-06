@@ -110,7 +110,6 @@ def get_progress_bar_string(status):
     p = 0 if total == 0 else round(completed * 100 / total)
     p = min(max(p, 0), 100)
     cFull = p // 8
-     cPart = p % 8 - 1
     p_str = 'π^' * cFull
     if cPart >= 0:
         p_str += PROGRESS_INCOMPLETE[cPart]
