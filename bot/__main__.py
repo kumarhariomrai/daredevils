@@ -209,7 +209,7 @@ def main():
                 if ospath.isfile(".restartmsg"):
                     with open(".restartmsg") as f:
                         chat_id, msg_id = map(int, f)
-                    msg = 'Restarted successfully!'
+                    msg = '💫Restarted successfully📍'
                 else:
                     msg = 'Bot Restarted!'
                 for tag, links in data.items():
