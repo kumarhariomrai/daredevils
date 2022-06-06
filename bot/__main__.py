@@ -54,7 +54,7 @@ def stats(update, context):
             f'<b>├  📤 Upload : </b> {sent}\n'\
             f'<b>├  📥 Download : </b> {recv}\n\n'\
             f'<b>├  📱 CPU : </b> {cpuUsage}%\n'\
-            f'<b>├  RAM:</b> {mem_p}%\n'\
+            f'<b>├  📇 RAM : </b> {mem_p}%\n'\
             f'<b>├  💡 DISK : </b> {disk}%\n\n'\
             f'<b>├  🔸 Physical Cores : </b> {p_core}\n'\
             f'<b>├  🔹 Total Cores : </b> {t_core}\n\n'\
