@@ -221,7 +221,7 @@ class MirrorListener:
             msg += f'\n\n<b>cc: </b>{self.tag}'
             buttons = ButtonMaker()
             link = short_url(link)
-            buttons.buildbutton("🌅 Drive Link", link)
+            buttons.buildbutton("🌅 Drive Link 💫", link)
             LOGGER.info(f'Done Uploading {name}')
             if INDEX_URL is not None:
                 url_path = rutils.quote(f'{name}')
@@ -229,10 +229,10 @@ class MirrorListener:
                 if ospath.isdir(f'{DOWNLOAD_DIR}/{self.uid}/{name}'):
                     share_url += '/'
                     share_url = short_url(share_url)
-                    buttons.buildbutton("💫 Index Link", share_url)
+                    buttons.buildbutton("🐬 Index Link 🦅", share_url)
                 else:
                     share_url = short_url(share_url)
-                    buttons.buildbutton("💫 Index Link", share_url)
+                    buttons.buildbutton("🐬 Index Link 🦅", share_url)
                     if VIEW_LINK:
                         share_urls = f'{INDEX_URL}/{url_path}?a=view'
                         share_urls = short_url(share_urls)
