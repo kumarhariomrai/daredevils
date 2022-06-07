@@ -44,7 +44,7 @@ def stats(update, context):
     mem_t = get_readable_file_size(memory.total)
     mem_a = get_readable_file_size(memory.available)
     mem_u = get_readable_file_size(memory.used)
-    stats = f'<b>╭──《🦌 𝙷𝚊𝚛𝚒𝚘𝚖'𝚜 𝚅𝚒𝚛𝚝𝚞𝚊𝚕 𝙼𝚊𝚌𝚑𝚒𝚗𝚎 🦌》</b>\n' \
+    stats = f'<b>╭──《🐈 𝙷𝚊𝚛𝚒𝚘𝚖'𝚜 𝚅𝚒𝚛𝚝𝚞𝚊𝚕 𝙼𝚊𝚌𝚑𝚒𝚗𝚎 🐈》</b>\n' \
             f'<b>│</b>\n' \
             f'<b>├  🌻 Starting Date : </b> {last_commit}\n\n'\
             f'<b>├  ⏰ Bot Uptime : </b> {currentTime}\n'\
